@@ -31,7 +31,7 @@ export const Exercises = () => {
           </Button>
           <p className="Exercises-cardCriteria">Goal</p>
           <p>
-            Reat gives us the power to build and compose small, modular elements
+            React gives us the power to build and compose small, modular elements
             into larger pieces. Covering these core components with tests has an
             outsized impact because they are re-used so often. Let's build an
             understanding of component testing by writing tests for our most
@@ -163,7 +163,7 @@ import {formattedUserData, mockUserData} from '../../utilities/mockUserData'
           <p>
             We have testing coverage for all of our pieces. Now it's time to put
             it all together and write something closer to an integration test.
-            This exercise will require you to mount the app, perform simulated
+            This exercise will require you to mount StaticApp, perform simulated
             exercises, and assert the proper user interfaces updated in the
             proper way.
           </p>
@@ -182,14 +182,14 @@ import {formattedUserData, mockUserData} from '../../utilities/mockUserData'
               Test that clicking the "X" button on a SavedUsersList user item
               removes that user from the SavedUsersList.
             </li>
-            <li>
+            <li className="Exercises-listItem">
               Test that GroupedUserCards recieves the savedUserIds prop with the
               right saved user ids once you have a saved user.
             </li>
           </ul>
           <p className="Exercises-cardCriteria">Implementation Details:</p>
-          There's a saying in frontend testing - "Don't test internals". This is
-          another way of saying not to test component internals. The excellent
+          There's a saying in testing - "Don't test internals". This is another
+          way of saying not to test component internals. The excellent
           Kent C. Dodds wrote an excellent article{" "}
           <a
             href="https://kentcdodds.com/blog/testing-implementation-details"
@@ -260,7 +260,6 @@ import {formattedUserData, mockUserData} from '../../utilities/mockUserData'
           <ul className="Exercises-list">
             <li className="Exercises-listItem">
               Dependency Injection: We've passed in our fetch call as a prop to
-              >Dependency Injection: We've passed in our fetch call as a prop to
               the AsyncApp component. This gives us the power to test AsyncApp
               with a mock version of fetchUsers that we can control. You will
               need to leverage this, and Jest mocks to write a successful test
