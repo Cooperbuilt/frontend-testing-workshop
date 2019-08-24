@@ -21,7 +21,7 @@ export const Header = () => (
           className="st6"
         />
       </svg>
-      <p className="Header-logoLetter">Awesome Learning</p>
+      <p className="Header-logoLetter">Awesome Testing Workshop</p>
     </div>
     <ul className="Header-links">
       <li className="Header-link">
