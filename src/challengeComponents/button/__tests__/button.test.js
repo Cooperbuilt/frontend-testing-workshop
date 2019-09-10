@@ -1,5 +1,5 @@
-import React from 'react';
-import { mount } from 'enzyme';
-import { Button } from '../button';
+import React from "react";
+import { mount } from "enzyme";
+import { Button } from "../button";
 
-test('test description', () => {});
+// your tests here!
