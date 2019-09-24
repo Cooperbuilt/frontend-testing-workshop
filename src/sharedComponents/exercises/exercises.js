@@ -26,7 +26,7 @@ export const Exercises = () => {
             headingLevel={2}
           />
           <p className="Exercises-cardCriteria">Link</p>
-          <Button type="text" onClick={() => navigate("/exerciseOne")}>
+          <Button type="text" onClick={() => navigate("/staticApp")}>
             Save Users App (hydrated with props)
           </Button>
           <p className="Exercises-cardCriteria">Goal</p>
@@ -110,7 +110,7 @@ test("renders title text", () => {
             headingLevel={2}
           />
           <p className="Exercises-cardCriteria">Link</p>
-          <Button type="text" onClick={() => navigate("/exerciseOne")}>
+          <Button type="text" onClick={() => navigate("/staticApp")}>
             Save Users App (hydrated with props)
           </Button>
           <p className="Exercises-cardCriteria">Goal</p>
@@ -156,7 +156,7 @@ import {formattedUserData, mockUserData} from '../../utilities/mockUserData'
             headingLevel={2}
           />
           <p className="Exercises-cardCriteria">Link</p>
-          <Button type="text" onClick={() => navigate("/exerciseOne")}>
+          <Button type="text" onClick={() => navigate("/staticApp")}>
             Save Users App (hydrated with props)
           </Button>
           <p className="Exercises-cardCriteria">Goal</p>
@@ -217,7 +217,7 @@ import {formattedUserData, mockUserData} from '../../utilities/mockUserData'
             headingLevel={2}
           />
           <p className="Exercises-cardCriteria">Link</p>
-          <Button type="text" onClick={() => navigate("/exerciseTwo")}>
+          <Button type="text" onClick={() => navigate("/asyncApp")}>
             Save Users App (hydrated with a fetch call)
           </Button>
           <p className="Exercises-cardCriteria">Goal</p>
@@ -304,7 +304,7 @@ import {formattedUserData, mockUserData} from '../../utilities/mockUserData'
             headingLevel={2}
           />
           <p className="Exercises-cardCriteria">Link</p>
-          <Button type="text" onClick={() => navigate("/exerciseTwo")}>
+          <Button type="text" onClick={() => navigate("/asyncApp")}>
             Save Users App (hydrated with a fetch call)
           </Button>
           <p className="Exercises-cardCriteria">Goal</p>
